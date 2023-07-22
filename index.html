@@ -4,8 +4,125 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea house with daisyUI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cli: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .font-manrop{
+      font-family: 'Manrope', sans-serif;
+    }
+  </style>
 </head>
 <body>
+    <header>
+        <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 text-font-manrop bg-[#FFF]">
+            <div class="hero min-h-screen bg-base-200  bg-[#FFF] ">
+                <div class="hero-content flex-col lg:flex-row-reverse  gap-9 md:gap-12 lg:gap-24 ">
+                  <div class="flex-1 relative">
+                     <img src="./images/banner-removebg-preview new.png" class="max-w-sm rounded-lg shadow-2xl " />
+                     <div class="card card-side bg-base-100 w-52 h-20  md:w-52 md:h-20 absolute top-56  left-0">
+                      <div class="rating items-center pl-3 md:pl-4 ">
+                       
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                        
+                      </div>
+                      <div class="pl-5 pt-4">
+                        <h2 class="card-title font-bold">5.00</h2>
+                        <p>Trust Pilot Ratings</p>
+                        
+                      </div>
+                    </div>
+                    
+                    </div>
+
+                  <div class="flex-1 mt-10 md:mt-13">
+                    <h1 class="text-5xl text-[#1C1C1C] font-bold">It's good <br>
+                        tea time at The<br> Tea House</h1>
+                    <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum<br> Satisfaction To Your Taste Buds.</p>
+                    <button class="btn text-white bg-gradient-to-r from-[#FF8938] to-[#F00]">Explore More</button>
+                  </div>
+                </div>
+              </div>
+        </section>
+    </header>
+    <main>
+      <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 text-font-manrop">
+        <div class="text-center mt-10">
+          <h1 class="text-3xl font-bold">Our Featured Products</h1>
+          <p class="text-lg">While there are literally thousands of teas in the world, as a subject of classification tea can be broken down into six main types: black, green, oolong, white, pu-erh and yellow. </p>
+        </div>
+        <div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-16">
+          <div class="card  bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/tea-1.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Milk Tea</h2>
+              <p>Creamer could be replaced<br> by fresh milk</p>
+             
+            </div>
+          </div>
+          <div class="card  bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/tea-2.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Black Tea</h2>
+              <p>Creamer could be replaced<br> by fresh milk</p>
+             
+            </div>
+          </div>
+          <div class="card  bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/tea-3.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Lemon Tea</h2>
+              <p>Creamer could be replaced<br> by fresh milk</p>
+             
+            </div>
+          </div>
+          <div class="card  bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./images/tea-1.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Green Tea</h2>
+              <p>Creamer could be replaced<br> by fresh milk</p>
+             
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+        
+         
+         
+        </div>
+      </section>
+    </main>
     
 </body>
 </html>
